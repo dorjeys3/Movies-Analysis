@@ -55,12 +55,12 @@ Please read my [full analysis](https://github.com/dorjeys3/Movies-Analysis/blob/
 For additional information on the project and myself, please concat me at Dorjeys3@gmail.com 
 
 # Repository Contents
--`images`:Folder with images used in the project
--`rawdata`:Folder with raw data used for data cleaning
--`zippedData`:Folder with all the data from imdb, tn, tmdb and bom provided by Flatiron School
--`.gitignore`:Please ignore
--`Microsot Movie Analysis.ipynb`:Cleaned data for review
--`Movie Analysis Presentation`:PDF of my Presentation
--`README`:Preview file for GitHub Repo
+>`images`:Folder with images used in the project
+>`rawdata`:Folder with raw data used for data cleaning
+>`zippedData`:Folder with all the data from imdb, tn, tmdb and bom provided by Flatiron School
+>`.gitignore`:Please ignore
+>`Microsot Movie Analysis.ipynb`:Cleaned data for review
+>`Movie Analysis Presentation`:PDF of my Presentation
+>`README`:Preview file for GitHub Repo
 
 
