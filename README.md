@@ -63,7 +63,7 @@ For additional information on the project and myself, please concat me at Dorjey
 
 >`.gitignore`:Please ignore
 
->`Microsot Movie Analysis.ipynb`:Cleaned data for review
+>`Microsot Movie Analysis.ipynb`:Cleaned data for [review](https://github.com/dorjeys3/Movies-Analysis/blob/master/Microsoft%20Movie%20Analysis.ipynb)
 
 >`Movie Analysis Presentation`:PDF of my Presentation
 
