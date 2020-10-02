@@ -30,8 +30,8 @@ US is the highest movie producing country. In fact, US makes more movies than th
 
 Overall, the movie industry is very profitable, both domestically and foreign
 
-        ![totalgrossbar20102018](Images/total_gross_2010_2018.png)               
-        ![totalgrossbox20102018](Images/total_gross_boxplot_2010_2018.png) 
+![totalgrossbar20102018](Images/total_gross_2010_2018.png)               
+![totalgrossbox20102018](Images/total_gross_boxplot_2010_2018.png) 
         
         
 Be that as it may, for Microsoft to enter the market as a new studio and compete with the larger movie industry dominators will be difficiult. 
