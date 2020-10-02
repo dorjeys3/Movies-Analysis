@@ -7,7 +7,7 @@
  - Majority of the movies are profitable, either domestic or foreign or both. 
  - Studio of the movie does not seem to matter. However, the power of a studio might have an effct on the scripts/directors/writers/etc. (extrapolating). 
  - Entering as a brand new studio might be difficult, especially when larger studios are releasing more than 10 blockbuster titles a year. 
- - From 2010 to 2018, Buena Vista (subsidary of Disney) had the highest grossing out of all studios at \\$31,818,940,000 - with net profit at \\$22,428,140,000 but stuidio with the best return on investment from 2010-2018 is Warner Brothers and Universal Studios. 
+ - From 2010 to 2018, Buena Vista (subsidary of Disney) had the highest grossing out of all studios at \$31,818,940,000 - with net profit at \$22,428,140,000 but stuidio with the best return on investment from 2010-2018 is Warner Brothers and Universal Studios. 
 
 
 ## Overview
