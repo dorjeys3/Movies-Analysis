@@ -1,93 +1,54 @@
-# Phase 1 Project
+## Exploratory Data Analysis on Movies
 
-## Introduction
+![studiologos](studio_logos.png)
 
-In this lesson, we review the guidelines for the Phase 1 Project.
+## TL;DR
+ - USA makes the more movies than the next three top movie producing countries.
+ - Majority of the movies are profitable, either domestic or foreign or both. 
+ - Studio of the movie does not seem to matter. However, the power of a studio might have an effct on the scripts/directors/writers/etc. (extrapolating). 
+ - Entering as a brand new studio might be difficult, especially when larger studios are releasing more than 10 blockbuster titles a year. 
+ - From 2010 to 2018, Buena Vista (subsidary of Disney) had the highest grossing out of all studios at \\$31,818,940,000 - with net profit at \\$22,428,140,000 but stuidio with the best return on investment from 2010-2018 is Warner Brothers and Universal Studios. 
 
-## Objectives
 
-You will be able to:
+## Overview
 
-* Start your Phase 1 Project
-* Check that your project meets the requirements
-* Submit your project materials in Canvas
-* Prepare for your project review
+# Business Problem
+Microsoft has recently lost trying to acquire Tik-Tok to Oracle and Walmart. Now Microsoft would like to allocate that money in creating their own original video content after seeing the success of Netflix, Hulu and Amazon Prime Video. 
 
-## Project Overview
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+# Data 
+This exploratory data analysis (EDA) is conducted on the Box Office Mojo (bom) database, The Movie Database (tmdb), International Movie Database (imdb) and TN database. This EDA will assist Microsoft in considering if they should enter the Movie industry. Using the information from these different databases, I illustrate my findings and advise what the next steps should be for Microsoft.
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project-campus/master/awesome.gif)
 
-All that remains in Phase 1 is to put our newfound data science skills to use with a large project! This project will take an entire week to complete.
 
-### Business Problem
+# Result 
 
-Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. They have hired you to help them better understand the movie industry.
-Your team is charged with exploring what type of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+US is the highest movie producing country. In fact, US makes more movies than the next top three movie producing countries or the last five countries from the Top 10 Movie producing countries. 
 
-### The Data
+![Top10countries](Images/top_10_countries.png)
 
-In the folder `zippedData` are movie datasets from:
 
-* Box Office Mojo
-* IMDB
-* Rotten Tomatoes
-* TheMovieDB.org
+Overall, the movie industry is very profitable, both domestically and foreign
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+![totalgrossbar20102018](Images/total_gross_2010_2018.png)               
+![totalgrossbox20102018](Images/total_gross_boxplot_2010_2018.png) 
+        
+        
+Be that as it may, for Microsoft to enter the market as a new studio and compete with the larger movie industry dominators will be difficiult. 
+![top5peryear](Images/top5_producers.png) 
+   
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+## Conclusion
 
-## Deliverables
+I would recommend Microsoft to partner with the larger studios and create a streaming platform which interacts with their virtual assisant, Cortana, which is already loaded in most Windows computers. 
+After launching their streaming platform, then we can revisit which genre, director, writer, actor, etc. would be the best fit to persue.  
 
-There are three deliverables for this project:
+# Next Steps
 
-1. A **GitHub repository**
-2. A **Jupyter Notebook**
-3. A **non-technical presentation**
+If Microsoft would stil like to persue with the film division, then I would like to webscrape and have additional data from Netflix, Hulu, NBC's Peacock and Amazon Prime Videos. It would be fruitful to look into not just movies and films but also consider television series. 
 
-Keep in mind that the audience for these deliverables is not only your teacher, but also potential employers. Employers will look at your project deliverables to evaluate multiple skills, including coding, modeling, communication, and domain knowledge. You will want to polish these as much as you can, both during the course and afterwards.
+Additionally, I would try to generate a Machine Learning algorithm that would analyze previous scripts, raitings and reviews from the web and predict how a movie will perform based on a script, director and actors information. 
 
-We provide a few resources to help you understand what makes for good deliverables.
-- The rubric associated with this assignment
-- [A template for you to use, with an example for reference][].
+# For more information
+Please read my full analysis. 
 
-### GitHub Repository
-
-Your GitHub repository is the public-facing version of your project that your instructors and potential employers will see - make it as accessible as you can. At a minimum, it should contain all your project files and a README.md file that summarizes your project and helps visitors navigate the repository.
-
-### Jupyter Notebook
-
-Your Jupyter Notebook is the primary source of information about your analysis. At a minimum, it should contain or import all of the code used in your project and walk the reader through your project from start to finish. You may choose to use multiple Jupyter Notebooks in your project, but you should have one that provides a full project overview as a point of entry for visitors.
-
-### Non-Technical Presentation
-
-Your non-technical presentation is your opportunity to communicate clearly and concisely about your project and it's real-world relevance. The target audience should be people with limited technical knowledge who may be interested in leveraging your project. For Phase 1, these would be Microsoft executives interested in making decisions about movie development. We recommend using Google Slides, PowerPoint or Keynote to create your presentation slides.
-
-## Getting Started
-
-Please start by reviewing this document. If you have any questions, please ask your instructor ASAP.
-
-We recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository][], clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review [the Phase Project Submission and Review guidance][] to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
-
-## Tips
-
-Ask for help from your peers or instructors early and often.
-
-[A template for you to use, with an example for reference]: https://github.com/learn-co-curriculum/dsc-project-template
-[Google Chrome Save to PDF instructions]: https://www.wikihow.com/Save-a-Web-Page-as-a-PDF-in-Google-Chrome
-[the Phase 1 Project Repository]: https://github.com/learn-co-curriculum/dsc-phase-1-project-campus
-[the Phase Project Submission and Review guidance]: https://github.com/learn-co-curriculum/dsc-project-submissions-campus
