@@ -1,6 +1,6 @@
 ## Exploratory Data Analysis on Movies
 
-![studiologos](studio_logos.png)
+![studiologos](Images/studio_logos.png)
 
 ## TL;DR
  - USA makes the more movies than the next three top movie producing countries.
