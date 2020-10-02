@@ -59,6 +59,8 @@ For additional information on the project and myself, please concat me at Dorjey
 -`rawdata`:Folder with raw data used for data cleaning
 -`zippedData`:Folder with all the data from imdb, tn, tmdb and bom provided by Flatiron School
 -`.gitignore`:Please ignore
--`README`:Preview File
+-`Microsot Movie Analysis.ipynb`:Cleaned data for review
+-`Movie Analysis Presentation`:PDF of my Presentation
+-`README`:Preview file for GitHub Repo
 
 
