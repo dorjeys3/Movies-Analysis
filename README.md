@@ -45,7 +45,7 @@ After launching their streaming platform, then we can revisit which genre, direc
 
 # Next Steps
 
-If Microsoft would stil like to persue with the film division, then I would like to webscrape and have additional data from Netflix, Hulu, NBC's Peacock and Amazon Prime Videos. It would be fruitful to look into not just movies and films but also consider television series. 
+If Microsoft would still like to persue with the film division, then I would like to webscrape and have additional data from Netflix, Hulu, NBC's Peacock and Amazon Prime Videos. It would be fruitful to look into not just movies and films but also consider television series. 
 
 Additionally, I would try to generate a Machine Learning algorithm that would analyze previous scripts, raitings and reviews from the web and predict how a movie will perform based on a script, director and actors information. 
 
