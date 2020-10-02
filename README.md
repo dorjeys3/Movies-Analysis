@@ -49,6 +49,7 @@ If Microsoft would stil like to persue with the film division, then I would like
 
 Additionally, I would try to generate a Machine Learning algorithm that would analyze previous scripts, raitings and reviews from the web and predict how a movie will perform based on a script, director and actors information. 
 
+
 # For more information
-Please read my full analysis. 
+Please read my [full analysis](https://github.com/dorjeys3/Movies-Analysis/blob/master/Microsoft%20Movie%20Analysis.ipynb) for further clarification. 
 
