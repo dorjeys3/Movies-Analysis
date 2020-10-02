@@ -1,6 +1,4 @@
-# Phase 1 Project
-
-# Exploratory Data Analysis on Movies
+## Exploratory Data Analysis on Movies
 
 ![studiologos](studio_logos.png)
 
@@ -26,13 +24,13 @@ This exploratory data analysis (EDA) is conducted on the Box Office Mojo (bom) d
 # Result 
 
 US is the highest movie producing country. In fact, US makes more movies than the next top three movie producing countries or the last five countries from the Top 10 Movie producing countries. 
-![Top10countries](images/top_10_countries.png)
+![Top10countries](Images/top_10_countries.png)
 Overall, the movie industry is very profitable, both domestically and foreign
-        ![totalgrossbar20102018](images/total_gross_2010_2018.png)               
-        ![totalgrossbox20102018](images/total_gross_boxplot_2010_2018.png) 
+        ![totalgrossbar20102018](Images/total_gross_2010_2018.png)               
+        ![totalgrossbox20102018](Images/total_gross_boxplot_2010_2018.png) 
         
 Be that as it may, for Microsoft to enter the market as a new studio and compete with the larger movie industry dominators will be difficiult. 
-![top5peryear](images/top5_producers.png) 
+![top5peryear](Images/top5_producers.png) 
    
 
 ## Conclusion
